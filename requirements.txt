@@ -17,4 +17,3 @@ scikit-learn
 urllib3
 ipaddress
 python-Levenshtein
-futures
