@@ -26,7 +26,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet
 from sklearn.feature_extraction.text import TfidfVectorizer
 from fuzzywuzzy import fuzz
-
+from typing import Dict, List
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
